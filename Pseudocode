@@ -1,0 +1,46 @@
+1. ALGORITHM: untuk mencari resultan gaya (newton) kita harus mengetahui berapa massa benda dan percepatan benda.
+    dan disini massa benda tertulis yaitu 600kg percepatan benda yaitu 2m/s2. setelah mengetahui massa benda dan percepatan benda,
+    kita kalkulasikan massa benda dan percepatan benda. Hasil dari pengkalkulasian tersebit merupakan resultan gayanya.
+   PSEUDOCODE: 
+    SET 'F' with any value
+    SET 'm' = 600
+    SET 'a' = 2
+
+    CALCULATE 'm' times 'a'
+    SET 'F' value with CALCULATION RESULT
+
+    DISPLAY 'F'
+    END
+
+2. ALGORITHM: dalam mencari tahun kabisat, hal yang pertama kita harus lakukan mengetahui tahun mana yang ingin kita ketahui apakah tahun
+    tersebut tahun kabisat apa bukan. suatu tahun akan disebut "Tahun Kabisat" jikalau memenuhi kondisi sebagai berikut:
+        1. Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+        2. Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+    jikalau tahun tersebut tidak memenuhi kondisi diatas, maka tahun tersebut bukanlah "Tahun Kabisat".
+   PSEUDOCODE:
+    SET 'Tahun' with any value
+    CALCULATE 'tahun'
+    IF 'tahun' /4 EQUALS 0 AND 'tahun' /100 NOT EQUALS 0, OR
+    ELSE IF 'tahun' /4 AND 'tahun' /100 AND 'tahun' /400 EQUALS 0
+    DISPLAY 'tahun kabisat'
+    ELSE 'bukan tahun kabisat'
+    END IF
+    END
+
+3. ALGORITHM: jikalau ingin menghitung pakaian yang ingin dicuci, foxie harus memasukkan baju-baju yang ingin dicuci ke mesin cuci
+    sambil menghitung baju-baju tersebut. jikalau semua baju-baju tersebut telah masuk ke masin cuci, nyalakan mesin cuci.
+
+   PSEUDOCODE: 
+    SET 'baju yang ingin dicuci' with 20
+    SET 'baju yang sudah masuk ke mesin cuci' with 0
+
+    CALCULATE 'baju yang ingin dicuci' - 1 AND 'baju yang sudah masuk ke mesin cuci' + 1
+
+    WHILE IF 'baju yang ingin dicuci' NOT EQUALS 0
+    CALCULATE 'baju yang ingin dicuci' - 1
+
+    ELSE IF 'baju yang ingin dicuci' EQUALS 0
+    DISPLAY 'nyalakan mesin cuci'
+    END IF  
+
+    END
